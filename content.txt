@@ -1,0 +1,28 @@
+backend:
+project creation:-
+1.npm init -y
+
+2.npm i express  ->it will create routes and server
+cors -it allows to browser to sever
+jsonwebtoken-authorization
+nodemon->it will update automatically
+mongoose->server to database intraction,model creation ,schema creation
+
+after project creation:-
+
+1.first server creation :
+var express = require('express') - instead of this we will create module pattern-like   "type":"module", in package.json
+2.import express from 'express'
+3.let app = express()
+4.app.listen()
+5."start":"node index.js"  -in package
+6.to stop server -ctr+c
+
+
+=>frontend:
+
+1.npx create-react-app .    (for same folder)
+2.npm i react-router-dom bootstrap redux react-redux axios
+3.
+4.
+5.
